@@ -1,0 +1,49 @@
+body {
+    background-color:lemonchiffon;
+}
+
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a:visited {
+    font-style: italic;
+    color:brown;
+}
+
+a:hover {
+background-color:darksalmon;
+}
+button {
+    height: 28px;
+    background-color:lightcoral;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+    border-color:black;
+    float: center;
+}
+a{
+    color: black;
+}
+
+nav:hover ul { display: block;}
+nav ul {
+display: none;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+nav ul li:hover { 
+color:black; }
+nav { font-weight: bold;
+color: black;
+border: 2px solid rgb(171, 97, 155);
+
+text-align: center;
+width: 10em;
+background-color: lightpink; }
